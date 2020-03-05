@@ -1,6 +1,6 @@
 // PROVIDER DEFINED HERE "GOOGLE"
 provider "google" {
-  credentials = "${file("account.json")}"
+  credentials = "${file("venkat_service_account.json")}"
   project     = "${var.venkat-project}"
   //region      = "us-central1"
   //  zone = "us-central1-a"
